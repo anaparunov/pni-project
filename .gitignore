@@ -1,6 +1,8 @@
 .idea
 .DS_Store
 
+design
+
 web/vendor
 web/composer.phar
 web/composer.lock
