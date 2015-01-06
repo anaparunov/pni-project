@@ -1,4 +1,5 @@
 .idea
+.DS_Store
 
 web/vendor
 web/composer.phar
