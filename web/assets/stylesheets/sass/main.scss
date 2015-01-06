@@ -1,0 +1,88 @@
+// =============================================================================
+// PROJECT NAME: Programiranje na internetu - završni rad
+// DATE: 01.2015.
+// AUTHOR: Ana Parunov
+// =============================================================================
+
+
+
+/*----------------------------*\
+    # VARIABLES AND MIXINS
+      Vendor and overrides
+\*----------------------------*/
+
+
+@import "lib/bourbon/bourbon";
+
+@import "lib/neat/neat-helpers";
+@import "lib/bitters/grid-settings";
+
+
+@import "lib/bitters/variables";
+
+// Bitters Variable Overrides
+@import "_main.variables.scss";
+
+//Custom mixins
+@import "_main.mixins";
+
+
+@import "lib/bitters/base";
+@import "lib/bitters/typography";
+@import "lib/bitters/forms";
+@import "lib/bitters/tables";
+@import "lib/bitters/lists";
+@import "lib/bitters/extends/flashes";
+
+@import "lib/neat/neat";
+
+
+
+/*-----------------------------------*\
+    #VENDOR
+    Vendor framework libraries
+\*------------------------------------*/
+
+
+
+
+/*----------------------------------*\
+  #CUSTOM FONT FILE
+\*----------------------------------*/
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:900,700,400&subset=latin,latin-ext);
+
+
+
+/*--------------------------------------------------------*\
+  #SECTIONS
+  Layouts and other page-specific stylings.
+  Anything that is not intended to be used in
+  multiple places in a versatile way
+\*--------------------------------------------------------*/
+
+@import "sections/_core";
+@import "sections/_type";
+@import "sections/_style_guide";
+@import "sections/_header";
+@import "sections/_footer";
+
+
+
+
+/*-------------------------------------------------------*\
+  #COMPONENTS
+  Intended to be used across the site.
+\*-------------------------------------------------------*/
+
+@import "components/_icons";
+@import "components/_forms";
+@import "components/_tables";
+@import "components/_custom-checkbox";
+
+
+/*----------------------*\
+  #PLUGINS
+   Plugin overrides
+\*----------------------*/
+

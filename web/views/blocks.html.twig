@@ -1,0 +1,20 @@
+{% extends "layout.html.twig" %}
+
+{% block headjs %}
+    <script src="../assets/js/vendor/modernizr-2.6.2.min.js"></script>
+{% endblock %}
+
+{% block stylesheets %}
+    <link href="../assets/bower_components/normalize-css/normalize.css" rel="stylesheet" type="text/css"/>
+    <link href="../assets/stylesheets/main.css" rel="stylesheet" type="text/css"/>
+    <link href="../assets/fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+{% endblock %}
+
+{% block footerjs %}
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+
+    <script src="../assets/js/main.js"></script>
+
+{% endblock %}

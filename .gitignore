@@ -1,0 +1,6 @@
+
+web/vendor
+web/composer.phar
+web/composer.lock
+
+web/assets/bower_components

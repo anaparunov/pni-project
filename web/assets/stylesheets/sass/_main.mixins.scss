@@ -1,0 +1,48 @@
+/* Use it
+  @extend %center;
+*/
+%center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+%boxshadow-disabled{
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+// Placeholder @mixin for Sass
+//
+// A mixin to style placeholders in HTML5 form elements.
+// Includes also a .placeholder class to be used with a polyfill e.g.
+// https://github.com/mathiasbynens/jquery-placeholder
+// Requires Sass 3.2.
+//
+// Example usage (.scss):
+//
+// input {
+//   @include placeholder {
+//     /* styles for placeholder here */
+//   }
+// }
+//
+
+@mixin placeholder {
+  &.placeholder { @content }
+  &:-moz-placeholder { @content }
+  &::-webkit-input-placeholder { @content }
+}
+
+
+
+@mixin font-smoothing($value: on) {
+  @if $value == on {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  @else {
+    -webkit-font-smoothing: subpixel-antialiased;
+    -moz-osx-font-smoothing: auto;
+  }
+}

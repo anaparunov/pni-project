@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+    {% block headjs %}
+    {% endblock %}
+
+   {% block stylesheets %}
+   {% endblock %}
+
+</head>
+<body>
+<!--[if lt IE 7]>
+<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+
+
+
+
+
+<div id="wrapper">
+
+
+    <header id="header">
+        <div class="wrap">
+            <div class="logo">
+                <img src="images/logo.svg" alt=""/>
+            </div>
+            <nav class="cl-effect-11">
+                    <a href="" data-hover="Najava">{{ myBox.shape }}dada</a>
+
+            </nav>
+        </div>
+    </header>
+
+
+
+
+    <main id="content">
+
+
+        <section class="main">
+
+            {% block content %}
+            {% endblock %}
+
+        </section>
+
+
+
+    </main>
+
+
+
+
+    <footer>
+
+    </footer>
+
+
+
+
+</div>
+
+    {% block footerjs %}
+    {% endblock %}
+
+
+
+</body>
+</html>
+
+
+
