@@ -9,7 +9,7 @@ pni-project
       php composer.phar install
 4. Go to 
       /assets folder.
-5. Install grunt modules :  
+5. Install grunt modules:
       npm install
 6. Install bower dependencies: 
       bower install
