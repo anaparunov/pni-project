@@ -1,6 +1,6 @@
 {
   "name": "Mentoring app",
-  "description": "Mentoring app dependencies",
+  "description": "Mentoring app, collage project dependencies",
   "version": "1.0.0",
   "dependencies": {
     "normalize-css": "~2.1.3"
